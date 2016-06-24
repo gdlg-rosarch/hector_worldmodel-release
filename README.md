@@ -1,3 +1,30 @@
+## hector_worldmodel (kinetic) - 0.3.4-0
+
+The packages in the `hector_worldmodel` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --track kinetic --rosdistro kinetic hector_worldmodel` on `Fri, 24 Jun 2016 21:14:47 -0000`
+
+These packages were released:
+- `hector_object_tracker`
+- `hector_worldmodel`
+- `hector_worldmodel_geotiff_plugins`
+- `hector_worldmodel_msgs`
+
+Version of package(s) in repository `hector_worldmodel`:
+
+- upstream repository: https://github.com/tu-darmstadt-ros-pkg/hector_worldmodel.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.3.4-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.21`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.4.7`
+- vcstools version: `0.1.38`
+
+
 ## hector_worldmodel (jade) - 0.3.3-0
 
 The packages in the `hector_worldmodel` repository were released into the `jade` distro by running `/usr/bin/bloom-release --track jade --rosdistro jade --new hector_worldmodel` on `Tue, 10 Nov 2015 10:51:11 -0000`

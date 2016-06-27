@@ -1,0 +1,25 @@
+From 7bbbe12e041f8f098a67331f2ea9b3ba656ef312 Mon Sep 17 00:00:00 2001
+From: Johannes Meyer <johannes@intermodalics.eu>
+Date: Mon, 27 Jun 2016 09:55:52 +0200
+Subject: [PATCH] hector_object_tracker: readded build dependency cmake_modules
+ for indigo
+
+---
+ package.xml | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/package.xml b/package.xml
+index d63c452..0856a09 100644
+--- a/package.xml
++++ b/package.xml
+@@ -24,6 +24,7 @@
+   <buildtool_depend>catkin</buildtool_depend>
+ 
+   <!-- Dependencies needed to compile this package. -->
++  <build_depend>cmake_modules</build_depend>
+   <build_depend>roscpp</build_depend>
+   <build_depend>tf</build_depend>
+   <build_depend>image_geometry</build_depend>
+-- 
+1.9.1
+
